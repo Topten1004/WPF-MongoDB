@@ -7,6 +7,17 @@
         mc:Ignorable="d"
         Title="NewUser" Height="450" Width="800">
     <Grid>
-        
+        <Button Content="Create New User" HorizontalAlignment="Left" Margin="351,332,0,0" VerticalAlignment="Top" Width="123" Height="39" Click="Button_Click"/>
+        <TextBox HorizontalAlignment="Left" Margin="428,49,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="213" Height="42"/>
+        <TextBox HorizontalAlignment="Left" Margin="428,111,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="213" Height="42"/>
+        <TextBox HorizontalAlignment="Left" Margin="428,175,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="213" Height="42"/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="198,52,0,0" VerticalAlignment="Top"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="198,119,0,0" VerticalAlignment="Top"/>
+        <Label Content="Confirm" HorizontalAlignment="Left" Margin="198,183,0,0" VerticalAlignment="Top"/>
+        <Label Content="Country" HorizontalAlignment="Left" Margin="198,261,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="Show Password" HorizontalAlignment="Center" Margin="0,234,0,0" VerticalAlignment="Top"/>
+        <ComboBox HorizontalAlignment="Left" Margin="428,286,0,0" VerticalAlignment="Top" Width="213"/>
+        <Button Content="Back" HorizontalAlignment="Left" Margin="35,10,0,0" VerticalAlignment="Top"/>
+
     </Grid>
 </Window>
